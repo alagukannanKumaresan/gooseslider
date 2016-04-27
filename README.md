@@ -22,6 +22,8 @@ As we are depending on Responsive CSS & JS files, we have to add those files too
 ##############################################################
 # Include CSS & JS
 ##############################################################
+
+```
   includeCSS {
     file_10 = typo3conf/ext/gooseslider/res/responsiveslides.css
   }
@@ -29,27 +31,27 @@ As we are depending on Responsive CSS & JS files, we have to add those files too
   includeJSFooter {
     responsiveslides = typo3conf/ext/gooseslider/res/responsiveslides.min.js
   }
-
+```
 
 Then simply use this one line typoscript to access the slider in page(which page slider need to shown/globally) typoscript like,
 
 ##############################################################
 # ADD SLIDER PLUGIN 
 ##############################################################
-    slider < plugin.tx_gooseslider_pi1
+```    slider < plugin.tx_gooseslider_pi1 ```
 
 Also you can use various slider sizes based on page such as like,
 
-#contact page
+```
    [globalVar = TSFE:id = (youpageid here)]
       slider.img.file.height = 348c //same width too
    [global]
-
+```
 Then access this variable 'slider' in your html fluid template like below,
-
+```
    <div>
      <f:format.raw>{slider}</f:format.raw>
    </div>
-
+```
 
 Done. Feel free to write me.
