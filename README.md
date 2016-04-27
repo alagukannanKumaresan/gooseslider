@@ -9,7 +9,8 @@ And you have to just add the gooseslider plugin settings in your setup typoscrip
 ## PLUGIN SETTINGS
 ##############################################################
 
-```plugin.tx_gooseslider_pi1{
+```
+plugin.tx_gooseslider_pi1 {
         img.file.width = 1920c //Image width in slider
         img.file.height = 348c //Image height in slider
         img.altText=my slider 
