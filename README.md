@@ -56,4 +56,4 @@ Then access this variable 'slider' in your html fluid template like below,
    </div>
 ```
 
-## Done. Feel free to write me.
+## Done. Feel free to write me, alagukan@gmail.com
